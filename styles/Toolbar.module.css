@@ -1,0 +1,17 @@
+.category {
+  border: none;
+  background: transparent;
+  padding: 5px;
+}
+.category:hover {
+  color: maroon;
+}
+
+.weatherlink a {
+  text-decoration: none;
+  color: #212529;
+}
+.weatherlink a:hover {
+  text-decoration: underline;
+  color: maroon;
+}

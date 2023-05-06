@@ -1,0 +1,61 @@
+.feed {
+  background-color: aliceblue;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.post {
+  height: 16rem;
+  background-color: whitesmoke;
+  margin-bottom: 2rem;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.post img {
+  width: 100%;
+  height: 16rem;
+}
+
+.post h4 {
+  cursor: pointer;
+}
+.post h4:hover {
+  color: maroon;
+}
+
+.category {
+  border: none;
+  background: transparent;
+  padding: 5px;
+}
+.category:hover {
+  color: maroon;
+}
+
+.paginator {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.paginator div {
+  margin: 25px;
+}
+
+.paginator .disabled {
+  cursor: not-allowed;
+  color: rgb(179, 179, 179);
+}
+
+.paginator .active {
+  cursor: pointer;
+}
+
+.featuredPost {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 2rem;
+  background-color: whitesmoke;
+}
+.featuredPost b:hover {
+  color: maroon !important;
+}
